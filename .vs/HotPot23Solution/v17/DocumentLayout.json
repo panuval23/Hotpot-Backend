@@ -1,0 +1,1686 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\placeorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\placeorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\restaurantupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\restaurantupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\reviewresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\reviewresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\useraddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\useraddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\usermenuitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\usermenuitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\deliverystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\deliverystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\cartresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\cartresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\addreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\addreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\menuitemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\menuitemupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\menuitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\menuitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\menuitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\menuitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\adminrestaurantregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\adminrestaurantregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\userregisterresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\userregisterresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\userrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\userrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23test\\tokenservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|solutionrelative:hotpot23test\\tokenservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\hotpot23api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\hotpot23api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\restaurantmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\restaurantmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23test\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|solutionrelative:hotpot23test\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23test\\restaurantservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|solutionrelative:hotpot23test\\restaurantservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\interfaces\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\interfaces\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\menuitemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\menuitemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\mappers\\usermapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\mappers\\usermapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\mappers\\restaurantmapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\mappers\\restaurantmapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\reviewtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\reviewtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\paginateduserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\paginateduserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\paginatedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\paginatedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\paginatedrestaurantresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\paginatedrestaurantresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23test\\adminservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|solutionrelative:hotpot23test\\adminservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23test\\authenticationservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|solutionrelative:hotpot23test\\authenticationservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\mappers\\adminmapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\mappers\\adminmapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\carttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\carttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\categorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\categorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\deliverystatustransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\deliverystatustransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\discountmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\discountmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\orderitemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\orderitemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\ordertransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\ordertransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\useraddressmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\useraddressmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\useraddressrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\useraddressrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\usermasterrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\usermasterrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\exceptions\\noentriessincollectionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\exceptions\\noentriessincollectionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\exceptions\\nosuchentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\exceptions\\nosuchentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23test\\hotpot23test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}|HotPot23Test\\HotPot23Test.csproj|solutionrelative:hotpot23test\\hotpot23test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\hotpot23api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\hotpot23api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\restaurantmasterrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\restaurantmasterrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\restaurantmasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\restaurantmasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\contexts\\fooddeliverymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\contexts\\fooddeliverymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\restaurantresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\restaurantresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\errorobjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\errorobjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\tokenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\tokenuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\ordertransactionrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\ordertransactionrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\ordertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\ordertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\carttransactionrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\carttransactionrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\carttransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\carttransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\models\\dtos\\restaurantdeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\models\\dtos\\restaurantdeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\menuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\menuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\menuitemrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\menuitemrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\usermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\usermasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\repositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\repositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\categoryrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\categoryrepositorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\interfaces\\iauthenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\interfaces\\iauthenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\repositories\\useraddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\repositories\\useraddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\migrations\\fooddeliverymanagementcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\migrations\\fooddeliverymanagementcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\migrations\\20250808171454_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\migrations\\20250808171454_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\migrations\\20250814100100_addisactivetomenuitemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\migrations\\20250814100100_addisactivetomenuitemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|c:\\users\\panuval\\source\\repos\\hotpot23solution\\hotpot23api\\migrations\\20250819065059_addimageurltorestaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5805F781-DBF8-4BCF-91AF-63F6F0E90768}|HotPot23API\\HotPot23API.csproj|solutionrelative:hotpot23api\\migrations\\20250819065059_addimageurltorestaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlaceOrderRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PlaceOrderRequestDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\PlaceOrderRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PlaceOrderRequestDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\PlaceOrderRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:37:31.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateCartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UpdateCartItemDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UpdateCartItemDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UpdateCartItemDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UpdateCartItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:27:05.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\ReviewResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\ReviewResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\ReviewResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\ReviewResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:55:13.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RestaurantUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\RestaurantUpdateDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\RestaurantUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\RestaurantUpdateDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\RestaurantUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:25:07.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\OrderResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\OrderResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\OrderResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\OrderResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:38:17.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HotPot23API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T12:18:34.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\UserService.cs",
+              "RelativeToolTip": "HotPot23API\\Services\\UserService.cs",
+              "ViewState": "AgIAANsBAAAAAAAAAAAwwOMBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:57:10.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateOrderStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UpdateOrderStatusDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UpdateOrderStatusDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UpdateOrderStatusDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UpdateOrderStatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:13:41.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserAddressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserAddressDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UserAddressDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserAddressDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UserAddressDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:01:30.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\OrderItemDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\OrderItemDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\OrderItemDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\OrderItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:37:58.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CartResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\CartResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CartResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\CartResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:37:05.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddReviewDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\AddReviewDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\AddReviewDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\AddReviewDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\AddReviewDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:47:26.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddToCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\AddToCartDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\AddToCartDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\AddToCartDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\AddToCartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:26:43.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserMenuItemResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserMenuItemResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UserMenuItemResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserMenuItemResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UserMenuItemResponseDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA8wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:35:15.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeliveryStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\DeliveryStatusDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\DeliveryStatusDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\DeliveryStatusDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\DeliveryStatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T10:21:32.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\CartItemDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CartItemDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\CartItemDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:36:15.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MenuItemUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\MenuItemUpdateDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\MenuItemUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\MenuItemUpdateDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\MenuItemUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:55:53.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MenuItemCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\MenuItemCreateDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\MenuItemCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\MenuItemCreateDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\MenuItemCreateDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:47:40.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\CheckoutDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CheckoutDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\CheckoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:27:38.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:35:49.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CategoryResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\CategoryResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\CategoryResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:36:15.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MenuItemResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\MenuItemResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\MenuItemResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\MenuItemResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\MenuItemResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:48:06.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T13:53:39.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryCreateDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\CategoryCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\CategoryCreateDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\CategoryCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:35:26.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminRestaurantRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\AdminRestaurantRegisterDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\AdminRestaurantRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\AdminRestaurantRegisterDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\AdminRestaurantRegisterDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:24:11.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRegisterResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserRegisterResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UserRegisterResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserRegisterResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UserRegisterResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:02:43.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRestaurantDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserRestaurantDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UserRestaurantDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserRestaurantDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UserRestaurantDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T14:24:50.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Controllers\\RestaurantController.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\RestaurantController.cs",
+              "RelativeToolTip": "HotPot23API\\Controllers\\RestaurantController.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAA0wNIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:45:12.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Services\\RestaurantService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\RestaurantService.cs",
+              "RelativeToolTip": "HotPot23API\\Services\\RestaurantService.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAIQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:43:02.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\LoginResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:03:12.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\appsettings.json",
+              "RelativeDocumentMoniker": "HotPot23API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\appsettings.json",
+              "RelativeToolTip": "HotPot23API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T13:14:57.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Program.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Program.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Program.cs",
+              "RelativeToolTip": "HotPot23API\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwEkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:10:33.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "HotPot23API\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwD8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:57:59.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "HotPot23API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:12:31.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\LoginRequestDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\LoginRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:03:03.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\TokenService.cs",
+              "RelativeToolTip": "HotPot23API\\Services\\TokenService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:04:56.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TokenServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\TokenServiceTest.cs",
+              "RelativeDocumentMoniker": "HotPot23Test\\TokenServiceTest.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\TokenServiceTest.cs",
+              "RelativeToolTip": "HotPot23Test\\TokenServiceTest.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T02:12:44.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "HotPot23API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:13:18.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HotPot23API.csproj",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\HotPot23API.csproj",
+              "RelativeDocumentMoniker": "HotPot23API\\HotPot23API.csproj",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\HotPot23API.csproj",
+              "RelativeToolTip": "HotPot23API\\HotPot23API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-08T13:12:22.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserRegisterDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UserRegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:01:40.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "HotPot23API\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T12:02:42.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "20250819065059_AddImageUrlToRestaurant.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\20250819065059_AddImageUrlToRestaurant.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Migrations\\20250819065059_AddImageUrlToRestaurant.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\20250819065059_AddImageUrlToRestaurant.cs",
+              "RelativeToolTip": "HotPot23API\\Migrations\\20250819065059_AddImageUrlToRestaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T06:50:59.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RestaurantMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\RestaurantMaster.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\RestaurantMaster.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\RestaurantMaster.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\RestaurantMaster.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T14:07:00.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MenuItemMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\MenuItemMaster.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\MenuItemMaster.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\MenuItemMaster.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\MenuItemMaster.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wCoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T14:16:56.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RestaurantServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\RestaurantServiceTest.cs",
+              "RelativeDocumentMoniker": "HotPot23Test\\RestaurantServiceTest.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\RestaurantServiceTest.cs",
+              "RelativeToolTip": "HotPot23Test\\RestaurantServiceTest.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:51:47.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "20250814100100_AddIsActiveToMenuItemMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\20250814100100_AddIsActiveToMenuItemMaster.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Migrations\\20250814100100_AddIsActiveToMenuItemMaster.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\20250814100100_AddIsActiveToMenuItemMaster.cs",
+              "RelativeToolTip": "HotPot23API\\Migrations\\20250814100100_AddIsActiveToMenuItemMaster.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T10:01:00.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\UserServiceTest.cs",
+              "RelativeDocumentMoniker": "HotPot23Test\\UserServiceTest.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\UserServiceTest.cs",
+              "RelativeToolTip": "HotPot23Test\\UserServiceTest.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwHEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:52:13.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IRestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IRestaurantService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Interfaces\\IRestaurantService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IRestaurantService.cs",
+              "RelativeToolTip": "HotPot23API\\Interfaces\\IRestaurantService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:41:19.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Services\\AdminService.cs",
+              "RelativeToolTip": "HotPot23API\\Services\\AdminService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:29:04.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RestaurantMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Mappers\\RestaurantMapperProfile.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Mappers\\RestaurantMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Mappers\\RestaurantMapperProfile.cs",
+              "RelativeToolTip": "HotPot23API\\Mappers\\RestaurantMapperProfile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBkAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:44:11.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Mappers\\UserMapperProfile.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Mappers\\UserMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Mappers\\UserMapperProfile.cs",
+              "RelativeToolTip": "HotPot23API\\Mappers\\UserMapperProfile.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDgAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:12:16.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PaginatedResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PaginatedResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\PaginatedResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PaginatedResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\PaginatedResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T05:57:54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PaginatedUserResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PaginatedUserResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\PaginatedUserResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PaginatedUserResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\PaginatedUserResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:58:47.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PaginatedRestaurantResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PaginatedRestaurantResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\PaginatedRestaurantResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\PaginatedRestaurantResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\PaginatedRestaurantResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:59:19.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ReviewTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\ReviewTransaction.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\ReviewTransaction.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\ReviewTransaction.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\ReviewTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:21:55.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AuthenticationServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\AuthenticationServiceTest.cs",
+              "RelativeDocumentMoniker": "HotPot23Test\\AuthenticationServiceTest.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\AuthenticationServiceTest.cs",
+              "RelativeToolTip": "HotPot23Test\\AuthenticationServiceTest.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:47:34.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AdminServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\AdminServiceTest.cs",
+              "RelativeDocumentMoniker": "HotPot23Test\\AdminServiceTest.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\AdminServiceTest.cs",
+              "RelativeToolTip": "HotPot23Test\\AdminServiceTest.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:51:31.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AdminMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Mappers\\AdminMapperProfile.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Mappers\\AdminMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Mappers\\AdminMapperProfile.cs",
+              "RelativeToolTip": "HotPot23API\\Mappers\\AdminMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:42:50.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CartTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\CartTransaction.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\CartTransaction.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\CartTransaction.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\CartTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:15:14.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CategoryMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\CategoryMaster.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\CategoryMaster.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\CategoryMaster.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\CategoryMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T14:11:13.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DeliveryStatusTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DeliveryStatusTransaction.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DeliveryStatusTransaction.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DeliveryStatusTransaction.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DeliveryStatusTransaction.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:21:07.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DiscountMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DiscountMaster.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DiscountMaster.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DiscountMaster.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DiscountMaster.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:16:52.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "OrderItemDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\OrderItemDetails.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\OrderItemDetails.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\OrderItemDetails.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\OrderItemDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:19:20.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OrderTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\OrderTransaction.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\OrderTransaction.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\OrderTransaction.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\OrderTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:18:17.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PaymentTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\PaymentTransaction.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\PaymentTransaction.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\PaymentTransaction.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\PaymentTransaction.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:20:28.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\User.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:58:43.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UserMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\UserMaster.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\UserMaster.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\UserMaster.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\UserMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:57:27.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UserAddressMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\UserAddressMaster.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\UserAddressMaster.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\UserAddressMaster.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\UserAddressMaster.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:58:04.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UserAddressRepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserAddressRepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\UserAddressRepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserAddressRepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\UserAddressRepositoryDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:38:59.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UserMasterRepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserMasterRepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\UserMasterRepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserMasterRepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\UserMasterRepositoryDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:38:33.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:38:09.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "NoEntriessInCollectionException.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Exceptions\\NoEntriessInCollectionException.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Exceptions\\NoEntriessInCollectionException.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Exceptions\\NoEntriessInCollectionException.cs",
+              "RelativeToolTip": "HotPot23API\\Exceptions\\NoEntriessInCollectionException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:31:12.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "NoSuchEntityException.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Exceptions\\NoSuchEntityException.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Exceptions\\NoSuchEntityException.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Exceptions\\NoSuchEntityException.cs",
+              "RelativeToolTip": "HotPot23API\\Exceptions\\NoSuchEntityException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:31:29.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "HotPot23Test.csproj",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\HotPot23Test.csproj",
+              "RelativeDocumentMoniker": "HotPot23Test\\HotPot23Test.csproj",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23Test\\HotPot23Test.csproj",
+              "RelativeToolTip": "HotPot23Test\\HotPot23Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-10T02:07:11.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "HotPot23API.http",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\HotPot23API.http",
+              "RelativeDocumentMoniker": "HotPot23API\\HotPot23API.http",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\HotPot23API.http",
+              "RelativeToolTip": "HotPot23API\\HotPot23API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-08T20:21:59.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:01:35.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "RestaurantMasterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\RestaurantMasterRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\RestaurantMasterRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\RestaurantMasterRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\RestaurantMasterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:17:24.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RestaurantMasterRepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\RestaurantMasterRepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\RestaurantMasterRepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\RestaurantMasterRepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\RestaurantMasterRepositoryDB.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T20:18:29.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "FoodDeliveryManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Contexts\\FoodDeliveryManagementContext.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Contexts\\FoodDeliveryManagementContext.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Contexts\\FoodDeliveryManagementContext.cs",
+              "RelativeToolTip": "HotPot23API\\Contexts\\FoodDeliveryManagementContext.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAgwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:28:08.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "HotPot23API\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:59:53.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "RestaurantResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\RestaurantResponseDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\RestaurantResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\RestaurantResponseDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\RestaurantResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:36:08.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Interfaces\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "HotPot23API\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:40:46.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "log4net.config",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\log4net.config",
+              "RelativeDocumentMoniker": "HotPot23API\\log4net.config",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\log4net.config",
+              "RelativeToolTip": "HotPot23API\\log4net.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-10T01:17:46.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ErrorObjectDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\ErrorObjectDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\ErrorObjectDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\ErrorObjectDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\ErrorObjectDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T01:03:30.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "TokenUser.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\TokenUser.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\TokenUser.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\TokenUser.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\TokenUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T18:01:23.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "DiscountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\DiscountDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\DiscountDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\DiscountDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\DiscountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:29:01.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "OrderTransactionRepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\OrderTransactionRepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\OrderTransactionRepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\OrderTransactionRepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\OrderTransactionRepositoryDB.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:54:06.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "OrderTransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\OrderTransactionRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\OrderTransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\OrderTransactionRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\OrderTransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:53:30.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "CartTransactionRepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CartTransactionRepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\CartTransactionRepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CartTransactionRepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\CartTransactionRepositoryDB.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:51:59.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CartTransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CartTransactionRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\CartTransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CartTransactionRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\CartTransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:51:07.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "RestaurantDeleteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\RestaurantDeleteDTO.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Models\\DTOs\\RestaurantDeleteDTO.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Models\\DTOs\\RestaurantDeleteDTO.cs",
+              "RelativeToolTip": "HotPot23API\\Models\\DTOs\\RestaurantDeleteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:26:00.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "MenuItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\MenuItemRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\MenuItemRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\MenuItemRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\MenuItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:48:40.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "MenuItemRepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\MenuItemRepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\MenuItemRepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\MenuItemRepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\MenuItemRepositoryDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T08:49:09.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "UserMasterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserMasterRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\UserMasterRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserMasterRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\UserMasterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:38:47.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "RepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\RepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\RepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\RepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\RepositoryDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:35:23.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\Repository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:33:26.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "CategoryRepositoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CategoryRepositoryDB.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\CategoryRepositoryDB.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CategoryRepositoryDB.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\CategoryRepositoryDB.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwBQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:39:57.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T07:37:49.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "IAuthenticate.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IAuthenticate.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Interfaces\\IAuthenticate.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IAuthenticate.cs",
+              "RelativeToolTip": "HotPot23API\\Interfaces\\IAuthenticate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:58:40.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:35:06.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "UserAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserAddressRepository.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Repositories\\UserAddressRepository.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Repositories\\UserAddressRepository.cs",
+              "RelativeToolTip": "HotPot23API\\Repositories\\UserAddressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:39:09.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "FoodDeliveryManagementContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\FoodDeliveryManagementContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Migrations\\FoodDeliveryManagementContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\FoodDeliveryManagementContextModelSnapshot.cs",
+              "RelativeToolTip": "HotPot23API\\Migrations\\FoodDeliveryManagementContextModelSnapshot.cs",
+              "ViewState": "AgIAAO4CAAAAAAAAAAAQwAoDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:20:17.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20250808171454_init.cs",
+              "DocumentMoniker": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\20250808171454_init.cs",
+              "RelativeDocumentMoniker": "HotPot23API\\Migrations\\20250808171454_init.cs",
+              "ToolTip": "C:\\Users\\Panuval\\source\\repos\\HotPot23Solution\\HotPot23API\\Migrations\\20250808171454_init.cs",
+              "RelativeToolTip": "HotPot23API\\Migrations\\20250808171454_init.cs",
+              "ViewState": "AgIAAPEBAAAAAAAAAIBJwPkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T17:14:54.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

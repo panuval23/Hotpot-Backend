@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotPot23API", "HotPot23API\HotPot23API.csproj", "{5805F781-DBF8-4BCF-91AF-63F6F0E90768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotPot23Test", "HotPot23Test\HotPot23Test.csproj", "{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5805F781-DBF8-4BCF-91AF-63F6F0E90768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5805F781-DBF8-4BCF-91AF-63F6F0E90768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5805F781-DBF8-4BCF-91AF-63F6F0E90768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5805F781-DBF8-4BCF-91AF-63F6F0E90768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6191C6D3-DB65-4B1E-B6A1-693A7A784BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95D9B640-BBF4-4C6D-AB17-06372CFCE533}
+	EndGlobalSection
+EndGlobal
