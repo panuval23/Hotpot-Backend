@@ -18,4 +18,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\Restaurant_4\" />
+    <Folder Include="wwwroot\uploads\Restaurant_5\" />
+    <Folder Include="wwwroot\uploads\Restaurant_6\" />
+    <Folder Include="wwwroot\uploads\Restaurant_7\" />
+    <Folder Include="wwwroot\uploads\Restaurant_8\" />
+  </ItemGroup>
+
 </Project>

@@ -9,8 +9,26 @@ namespace HotPot23API.Mappers
         public UserMapperProfile()
         {
             CreateMap<UserRegisterDTO, UserMaster>();
+            // CreateMap<UserMaster, UserDTO>()
+            //.ForMember(dest => dest.Addresses, opt => opt.MapFrom(src => src.Addresses)).ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Role)) ;
+            //        CreateMap<UserMaster, UserDTO>()
+            //.ForMember(dest => dest.Addresses, opt => opt.MapFrom(src => src.Addresses))
+            //.ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Role))
+            //.ForMember(dest => dest.Restaurant, opt => opt.MapFrom(src => src.Restaurants.FirstOrDefault()));
+
+            //        CreateMap<RestaurantMaster, UserRestaurantDTO>();
             CreateMap<UserMaster, UserDTO>()
-           .ForMember(dest => dest.Addresses, opt => opt.MapFrom(src => src.Addresses));
+            .ForMember(dest => dest.Addresses, opt => opt.MapFrom(src => src.Addresses))
+            .ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Role))
+            .ForMember(dest => dest.Restaurant, opt => opt.MapFrom(src => src.Restaurants.FirstOrDefault()));
+
+            CreateMap<RestaurantMaster, UserRestaurantDTO>()
+               .ForMember(dest => dest.RestaurantID, opt => opt.MapFrom(src => src.RestaurantID))
+               .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.RestaurantName))
+               .ReverseMap();
+
+
+
             CreateMap<UserAddressMaster, UserAddressDTO>();
 
             CreateMap<UserAddressMaster, UserAddressDTO>();

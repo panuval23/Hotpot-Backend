@@ -437,14 +437,6 @@ namespace HotPot23API.Services
 
             return reviews;
         }
-
-
-
-
-
-
-
-
     }
 }
 

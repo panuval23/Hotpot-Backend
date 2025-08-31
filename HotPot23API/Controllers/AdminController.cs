@@ -1,4 +1,5 @@
-﻿using HotPot23API.Interfaces;
+﻿using HotPot23API.Exceptions;
+using HotPot23API.Interfaces;
 using HotPot23API.Models.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
@@ -105,5 +106,25 @@ namespace HotPot23API.Controllers
                 return StatusCode(500, "Error fetching restaurants.");
             }
         }
+        [HttpDelete("DeleteUser/{userId}")]
+        public async Task<IActionResult> DeleteUser(int userId)
+        {
+            try
+            {
+                var success = await _adminService.DeleteUserAsync(userId);
+                if (!success)
+                    return NotFound(new { Message = "User not found." });
+
+                return Ok(new { Message = "User deactivated (soft delete)." });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error deleting user with ID {UserId}", userId);
+                return StatusCode(500, new { Message = $"Error deleting user: {ex.Message}" });
+            }
+        }
+
+
+
     }
 }

@@ -19,11 +19,13 @@ namespace HotPot23API.Controllers
     {
         private readonly IRestaurantService _restaurantService;
         private readonly ILogger<RestaurantController> _logger;
+        private readonly IWebHostEnvironment _env;
 
-        public RestaurantController(IRestaurantService restaurantService, ILogger<RestaurantController> logger)
+        public RestaurantController(IRestaurantService restaurantService, ILogger<RestaurantController> logger, IWebHostEnvironment env)
         {
             _restaurantService = restaurantService;
             _logger = logger;
+            _env = env;
         }
 
         private int GetLoggedInRestaurantId()
@@ -357,7 +359,7 @@ namespace HotPot23API.Controllers
         {
             try
             {
-                int restaurantId = GetLoggedInRestaurantId(); 
+                int restaurantId = GetLoggedInRestaurantId();
                 var reviews = await _restaurantService.GetAllReviewsForRestaurantAsync(restaurantId);
                 return Ok(reviews);
             }
@@ -372,6 +374,39 @@ namespace HotPot23API.Controllers
             }
         }
 
+        [HttpGet("images")]
+        public IActionResult GetRestaurantImages()
+        {
+            try
+            {
+                var restaurantId = GetLoggedInRestaurantId();
+                var uploadsPath = Path.Combine(_env.WebRootPath, "uploads", $"Restaurant_{restaurantId}");
+
+                if (!Directory.Exists(uploadsPath))
+                    return Ok(new string[0]);
+
+                var files = Directory.GetFiles(uploadsPath)
+                                     .Select(f => Path.GetFileName(f))
+                                     .ToList();
+
+                var baseUrl = $"{Request.Scheme}://{Request.Host}/uploads/Restaurant_{restaurantId}/";
+                var urls = files.Select(f => baseUrl + Uri.EscapeDataString(f)).ToList();
+
+                return Ok(urls);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                _logger.LogWarning(ex, "Unauthorized access to GetRestaurantImages");
+                return Unauthorized(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching restaurant images");
+                return StatusCode(500, new { Message = $"Error fetching images: {ex.Message}" });
+            }
+        }
+
 
     }
 }
+

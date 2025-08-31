@@ -135,12 +135,16 @@ namespace HotPot23API.Services
         }
         public async Task<PaginatedUserResponseDTO> GetAllUsersAsync(int pageNumber, int pageSize)
         {
+            //var query = _context.UserMasters
+            //    .Include(u => u.Addresses);
+            //    //.Where(u => u.Role == "User" && u.IsActive);
+            ////.Where(u => u.IsActive);
             var query = _context.UserMasters
-                .Include(u => u.Addresses)
-                //.Where(u => u.Role == "User" && u.IsActive);
-            .Where(u => u.IsActive);
+    .Include(u => u.Addresses)
+    .Include(u => u.Restaurants);
 
             var totalNumberOfRecords = await query.CountAsync();
+   
 
             if (totalNumberOfRecords == 0)
                 throw new NoEntriessInCollectionException();
@@ -156,13 +160,14 @@ namespace HotPot23API.Services
             {
                 Users = userDtos,
                 TotalNumberOfRecords = totalNumberOfRecords,
-                PageNumber = pageNumber
+                PageNumber = pageNumber,
+                
             };
         }
         public async Task<PaginatedRestaurantResponseDTO> GetAllRestaurantsAsync(int pageNumber, int pageSize)
         {
-            var query = _context.RestaurantMasters
-                .Where(r => r.IsActive);
+            var query = _context.RestaurantMasters;
+                //.Where(r => r.IsActive);
 
             var totalNumberOfRecords = await query.CountAsync();
 
@@ -183,7 +188,31 @@ namespace HotPot23API.Services
                 PageNumber = pageNumber
             };
         }
-       
+        public async Task<bool> DeleteUserAsync(int userId)
+        {
+            var user = await _context.UserMasters
+                .Include(u => u.Restaurants) // in case you want to deactivate linked restaurants too
+                .FirstOrDefaultAsync(u => u.UserID == userId);
+
+            if (user == null)
+                throw new NoSuchEntityException();
+
+            // Soft delete
+            user.IsActive = false;
+
+            // Optional: if a restaurant user, disable their restaurant(s)
+            if (user.Role == "Restaurant" && user.Restaurants != null)
+            {
+                foreach (var r in user.Restaurants)
+                {
+                    r.IsActive = false;
+                }
+            }
+
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
         private User PopulateUserObject(UserMaster userMaster)
         {
             var user = new User

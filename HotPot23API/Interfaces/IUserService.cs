@@ -9,17 +9,15 @@ namespace HotPot23API.Interfaces
       
         Task<PaginatedResponseDTO<UserRestaurantDTO>> GetAllRestaurantsAsync(int pageNumber = 1, int pageSize = 10);
 
-
-
         Task<PaginatedResponseDTO<UserMenuItemResponseDTO>> GetMenuByRestaurantAsync(
-     string restaurantName = null,
-     string categoryName = null,
-     bool? isVeg = null,
-     decimal? minPrice = null,
-     decimal? maxPrice = null,
-     int pageNumber = 1,
-     int pageSize = 10);
-
+            int? restaurantId = null,
+            string restaurantName = null,
+            string categoryName = null,
+            bool? isVeg = null,
+            decimal? minPrice = null,
+            decimal? maxPrice = null,
+            int pageNumber = 1,
+            int pageSize = 10);
 
 
 
@@ -39,11 +37,16 @@ namespace HotPot23API.Interfaces
    
         Task<bool> RemoveCartItemAsync(int userId, int cartId);
 
-        // Checkout and place order
+      
         Task<OrderResponseDTO> CheckoutAsync(int userId, CheckoutDTO checkoutDto);
 
         Task<string> AddReviewAsync(int userId, AddReviewDTO dto);
         //Task<IEnumerable<UserRestaurantDTO>> GetRestaurantsByMenuAsync(string menuName);
+
+        Task<List<UserAddressDTO>> GetUserAddressesAsync(int userId);
+        Task<UserAddressDTO> AddUserAddressAsync(int userId, UserAddressDTO address);
+        Task<IEnumerable<OrderResponseDTO>> GetUserOrdersAsync(int userId);
+
 
 
     }

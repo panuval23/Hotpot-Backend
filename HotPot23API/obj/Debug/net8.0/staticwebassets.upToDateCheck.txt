@@ -1,9 +1,0 @@
-wwwroot\uploads\kumarmess.jpg
-wwwroot\uploads\thalapakatti.jpg
-wwwroot\uploads\friendscafe.jpg
-wwwroot\uploads\KFC.jpg
-wwwroot\uploads\srisabarish.jpg
-wwwroot\uploads\a2b.jpg
-wwwroot\uploads\ThalapakattiChickenbriyani.jpg
-wwwroot\uploads\KumarmessChickenbriyani.jpg
-wwwroot\uploads\vegbriyanithalapakatti.jpg

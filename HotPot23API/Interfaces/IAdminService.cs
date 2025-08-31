@@ -11,5 +11,8 @@ namespace HotPot23API.Interfaces
         Task<PaginatedUserResponseDTO> GetAllUsersAsync(int pageNumber, int pageSize);
         Task<PaginatedRestaurantResponseDTO> GetAllRestaurantsAsync(int pageNumber, int pageSize);
 
+        Task<bool> DeleteUserAsync(int userId);
+
+
     }
 }

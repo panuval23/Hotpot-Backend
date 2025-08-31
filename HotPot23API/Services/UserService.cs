@@ -28,21 +28,20 @@ namespace HotPot23API.Services
         public async Task<PaginatedResponseDTO<UserRestaurantDTO>> GetAllRestaurantsAsync(int pageNumber = 1, int pageSize = 10)
         {
             var query = _context.RestaurantMasters
-                .Include(r => r.MenuItems);
+                .Include(r => r.MenuItems)
+                .Where(r => r.IsActive);
+            
 
-            // Get total count before pagination
             var totalCount = await query.CountAsync();
 
-            // Apply pagination
+     
             var restaurants = await query
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
 
-            // Map to DTOs
             var restaurantDtos = _mapper.Map<IEnumerable<UserRestaurantDTO>>(restaurants);
 
-            // Return in paginated format
             return new PaginatedResponseDTO<UserRestaurantDTO>
             {
                 Items = restaurantDtos,
@@ -54,22 +53,28 @@ namespace HotPot23API.Services
 
 
         public async Task<PaginatedResponseDTO<UserMenuItemResponseDTO>> GetMenuByRestaurantAsync(
-       string restaurantName = null,
-       string categoryName = null,
-       bool? isVeg = null,
-       decimal? minPrice = null,
-       decimal? maxPrice = null,
-       int pageNumber = 1,
-       int pageSize = 10)
+      int? restaurantId = null,
+      string restaurantName = null,
+      string categoryName = null,
+      bool? isVeg = null,
+      decimal? minPrice = null,
+      decimal? maxPrice = null,
+      int pageNumber = 1,
+      int pageSize = 10)
         {
             var query = _context.MenuItems
-                 .Where(m => m.IsActive)
+                .Where(m => m.IsActive)
                 .Include(m => m.Category)
                 .Include(m => m.Restaurant)
                 .Include(m => m.Discounts)
                 .AsQueryable();
 
-            if (!string.IsNullOrEmpty(restaurantName))
+            // ✅ First check restaurantId
+            if (restaurantId.HasValue)
+            {
+                query = query.Where(m => m.RestaurantID == restaurantId.Value);
+            }
+            else if (!string.IsNullOrEmpty(restaurantName))
             {
                 var restaurant = await _context.RestaurantMasters
                     .FirstOrDefaultAsync(r => r.RestaurantName.ToLower() == restaurantName.ToLower());
@@ -112,10 +117,9 @@ namespace HotPot23API.Services
             if (maxPrice.HasValue)
                 query = query.Where(m => m.Price <= maxPrice.Value);
 
-            // Get total count before pagination
+      
             var totalCount = await query.CountAsync();
 
-            // Apply pagination
             var pagedQuery = query.Skip((pageNumber - 1) * pageSize).Take(pageSize);
 
             var menuItems = await pagedQuery.ToListAsync();
@@ -130,6 +134,7 @@ namespace HotPot23API.Services
                 PageSize = pageSize
             };
         }
+
 
 
         public async Task<PaginatedResponseDTO<UserMenuItemResponseDTO>> SearchMenuItemsAsync(
@@ -252,50 +257,50 @@ namespace HotPot23API.Services
             };
         }
 
-        public async Task<CartResponseDTO> GetCartAsync(int userId)
-        {
-            var cartItems = await _context.CartTransactions
-                .Where(c => c.UserID == userId)
-                .Include(c => c.MenuItem)
-                    .ThenInclude(m => m.Discounts)
-                .ToListAsync();
+        //public async Task<CartResponseDTO> GetCartAsync(int userId)
+        //{
+        //    var cartItems = await _context.CartTransactions
+        //        .Where(c => c.UserID == userId)
+        //        .Include(c => c.MenuItem)
+        //            .ThenInclude(m => m.Discounts)
+        //        .ToListAsync();
 
-            var now = DateTime.UtcNow;
+        //    var now = DateTime.UtcNow;
 
-            var cartItemDtos = cartItems.Select(c =>
-            {
-                var menuItem = c.MenuItem;
+        //    var cartItemDtos = cartItems.Select(c =>
+        //    {
+        //        var menuItem = c.MenuItem;
 
              
-                decimal? discountPercent = null;
-                if (menuItem.Discounts != null && menuItem.Discounts.Any())
-                {
-                    var activeDiscount = menuItem.Discounts
-                        .Where(d => (!d.ValidFrom.HasValue || d.ValidFrom <= now) &&
-                                    (!d.ValidTo.HasValue || d.ValidTo >= now))
-                        .OrderByDescending(d => d.DiscountPercent ?? 0)
-                        .FirstOrDefault();
+        //        decimal? discountPercent = null;
+        //        if (menuItem.Discounts != null && menuItem.Discounts.Any())
+        //        {
+        //            var activeDiscount = menuItem.Discounts
+        //                .Where(d => (!d.ValidFrom.HasValue || d.ValidFrom <= now) &&
+        //                            (!d.ValidTo.HasValue || d.ValidTo >= now))
+        //                .OrderByDescending(d => d.DiscountPercent ?? 0)
+        //                .FirstOrDefault();
 
-                    if (activeDiscount != null)
-                        discountPercent = activeDiscount.DiscountPercent;
-                }
+        //            if (activeDiscount != null)
+        //                discountPercent = activeDiscount.DiscountPercent;
+        //        }
 
-                return new CartItemDTO
-                {
-                    CartID = c.CartID,
-                    MenuItemID = menuItem.MenuItemID,
-                    MenuItemName = menuItem.Name,
-                    OriginalPrice = menuItem.Price,
-                    DiscountPercent = discountPercent,
-                    Quantity = c.Quantity
-                };
-            }).ToList();
+        //        return new CartItemDTO
+        //        {
+        //            CartID = c.CartID,
+        //            MenuItemID = menuItem.MenuItemID,
+        //            MenuItemName = menuItem.Name,
+        //            OriginalPrice = menuItem.Price,
+        //            DiscountPercent = discountPercent,
+        //            Quantity = c.Quantity
+        //        };
+        //    }).ToList();
 
-            return new CartResponseDTO
-            {
-                Items = cartItemDtos
-            };
-        }
+        //    return new CartResponseDTO
+        //    {
+        //        Items = cartItemDtos
+        //    };
+        //}
         public async Task<CartItemDTO> UpdateCartItemAsync(int userId, UpdateCartItemDTO updateCartItemDto)
         {
             if (updateCartItemDto == null)
@@ -464,6 +469,45 @@ namespace HotPot23API.Services
         //    return _mapper.Map<IEnumerable<UserRestaurantDTO>>(restaurants);
         //}
 
+        public async Task<List<UserAddressDTO>> GetUserAddressesAsync(int userId)
+        {
+            return await _context.UserAddressMasters   
+                .Where(a => a.UserID == userId)
+                .Select(a => new UserAddressDTO
+                {
+                    AddressID = a.AddressID,
+                    AddressLine = a.AddressLine,
+                    City = a.City,
+                    State = a.State,
+                    Pincode = a.Pincode,
+                    Landmark = a.Landmark,
+                    AddressType = a.AddressType
+                })
+                .ToListAsync();
+        }
+
+        // Add new address for a user
+        public async Task<UserAddressDTO> AddUserAddressAsync(int userId, UserAddressDTO dto)
+        {
+            var entity = new UserAddressMaster
+            {
+                UserID = userId,
+                AddressLine = dto.AddressLine,
+                City = dto.City,
+                State = dto.State,
+                Pincode = dto.Pincode,
+                Landmark = dto.Landmark,
+                AddressType = dto.AddressType,
+                IsDefault = false,
+                CreatedOn = DateTime.UtcNow
+            };
+
+            _context.UserAddressMasters.Add(entity);   
+            await _context.SaveChangesAsync();
+
+            dto.AddressID = entity.AddressID;
+            return dto;
+        }
 
         public async Task<string> AddReviewAsync(int userId, AddReviewDTO dto)
         {
@@ -494,6 +538,93 @@ namespace HotPot23API.Services
 
             return $"Review added successfully for {menuItem.Name} at {menuItem.Restaurant.RestaurantName}";
         }
+        public async Task<CartResponseDTO> GetCartAsync(int userId)
+        {
+            var cartItems = await _context.CartTransactions
+                .Where(c => c.UserID == userId)
+                .Include(c => c.MenuItem)
+                    .ThenInclude(m => m.Discounts)
+                .Include(c => c.MenuItem.Restaurant) 
+                .ToListAsync();
+
+            var now = DateTime.UtcNow;
+
+            var cartItemDtos = cartItems.Select(c =>
+            {
+                var menuItem = c.MenuItem;
+
+                decimal? discountPercent = null;
+                if (menuItem.Discounts != null && menuItem.Discounts.Any())
+                {
+                    var activeDiscount = menuItem.Discounts
+                        .Where(d => (!d.ValidFrom.HasValue || d.ValidFrom <= now) &&
+                                    (!d.ValidTo.HasValue || d.ValidTo >= now))
+                        .OrderByDescending(d => d.DiscountPercent ?? 0)
+                        .FirstOrDefault();
+
+                    if (activeDiscount != null)
+                        discountPercent = activeDiscount.DiscountPercent;
+                }
+
+                return new CartItemDTO
+                {
+                    CartID = c.CartID,
+                    MenuItemID = menuItem.MenuItemID,
+                    MenuItemName = menuItem.Name,
+                    OriginalPrice = menuItem.Price,
+                    DiscountPercent = discountPercent,
+                    Quantity = c.Quantity,
+
+                    // 🔹 Add Restaurant Info
+                    RestaurantID = menuItem.Restaurant.RestaurantID,
+                    RestaurantName = menuItem.Restaurant.RestaurantName,
+                    RestaurantAddress = menuItem.Restaurant.Location, 
+                    RestaurantImage = menuItem.Restaurant.ImageUrl       
+                };
+            }).ToList();
+
+            return new CartResponseDTO
+            {
+                Items = cartItemDtos
+            };
+        }
+        public async Task<IEnumerable<OrderResponseDTO>> GetUserOrdersAsync(int userId)
+        {
+            var orders = await _context.OrderTransactions
+                .Where(o => o.UserID == userId)
+                .Include(o => o.Restaurant)
+                .Include(o => o.OrderItems)
+                    .ThenInclude(oi => oi.MenuItem)
+                .Include(o => o.DeliveryStatuses)
+                .OrderByDescending(o => o.CreatedOn)
+                .ToListAsync();
+
+            return orders.Select(o => new OrderResponseDTO
+            {
+                OrderID = o.OrderID,
+                CreatedOn = o.CreatedOn,
+                Status = o.OrderStatus,
+                TotalAmount = o.TotalAmount,
+                RestaurantID = o.RestaurantID,
+                RestaurantName = o.Restaurant?.RestaurantName ?? string.Empty,
+
+                Items = o.OrderItems.Select(oi => new OrderItemDTO
+                {
+                    MenuItemID = oi.MenuItemID,
+                    MenuItemName = oi.MenuItem?.Name ?? "",
+                    Price = oi.PriceAtOrder,
+                    Quantity = oi.Quantity
+                }).ToList(),
+
+                DeliveryStatuses = o.DeliveryStatuses?.Select(d => new DeliveryStatusDTO
+                {
+                    Status = d.Status,
+                    UpdatedAt = d.UpdatedAt  
+                }).ToList()
+            });
+        }
+
+
 
     }
 

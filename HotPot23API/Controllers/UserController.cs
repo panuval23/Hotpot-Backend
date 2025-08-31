@@ -57,20 +57,27 @@ namespace HotPot23API.Controllers
         }
 
         [HttpGet("menu")]
-        //[AllowAnonymous]
         public async Task<IActionResult> GetMenu(
-      string restaurantName = null,
-      string categoryName = null,
-      bool? isVeg = null,
-      decimal? minPrice = null,
-      decimal? maxPrice = null,
-      [FromQuery] int pageNumber = 1,
-      [FromQuery] int pageSize = 10)
+          int? restaurantId = null,
+          string restaurantName = null,
+          string categoryName = null,
+          bool? isVeg = null,
+          decimal? minPrice = null,
+          decimal? maxPrice = null,
+          [FromQuery] int pageNumber = 1,
+          [FromQuery] int pageSize = 10)
         {
             try
             {
                 var menu = await _userService.GetMenuByRestaurantAsync(
-                    restaurantName, categoryName, isVeg, minPrice, maxPrice, pageNumber, pageSize);
+                    restaurantId,
+                    restaurantName,
+                    categoryName,
+                    isVeg,
+                    minPrice,
+                    maxPrice,
+                    pageNumber,
+                    pageSize);
 
                 return Ok(menu);
             }
@@ -200,7 +207,7 @@ namespace HotPot23API.Controllers
         }
 
         [HttpDelete("cart/remove/{cartId}")]
-       // [Authorize(Roles = "User")]
+   
         public async Task<IActionResult> RemoveCartItem(int cartId)
         {
             try
@@ -220,7 +227,7 @@ namespace HotPot23API.Controllers
         }
 
         [HttpPost("cart/checkout")]
-       // [Authorize(Roles = "User")]
+      
         public async Task<IActionResult> Checkout([FromBody] CheckoutDTO checkoutDto)
         {
             if (!ModelState.IsValid)
@@ -239,24 +246,8 @@ namespace HotPot23API.Controllers
             }
         }
 
-        //[HttpGet("restaurants-by-menu")]
-        //[AllowAnonymous]
-        //public async Task<IActionResult> GetRestaurantsByMenu([FromQuery] string menuName)
-        //{
-        //    try
-        //    {
-        //        var restaurants = await _userService.GetRestaurantsByMenuAsync(menuName);
-        //        return Ok(restaurants);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, $"Error fetching restaurants for menu {menuName}");
-        //        return StatusCode(500, new { Message = $"Error fetching restaurants: {ex.Message}" });
-        //    }
-        //}
-
         [HttpPost("review/add")]
-        //[Authorize(Roles = "User")]
+    
         public async Task<IActionResult> AddReview([FromBody] AddReviewDTO request)
         {
             if (!ModelState.IsValid)
@@ -289,5 +280,64 @@ namespace HotPot23API.Controllers
                 return StatusCode(500, new { Message = $"Error adding review: {ex.Message}" });
             }
         }
+
+
+        [HttpGet("addresses")]
+        public async Task<IActionResult> GetUserAddresses()
+        {
+            try
+            {
+                int userId = GetLoggedInUserId();
+                var addresses = await _userService.GetUserAddressesAsync(userId);
+                return Ok(addresses);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching addresses");
+                return StatusCode(500, new { Message = "Error fetching addresses" });
+            }
+        }
+
+        [HttpPost("addresses")]
+        public async Task<IActionResult> AddAddress([FromBody] UserAddressDTO addressDto)
+        {
+            try
+            {
+                int userId = GetLoggedInUserId();
+                var result = await _userService.AddUserAddressAsync(userId, addressDto);
+                return Ok(new { Message = "Address added successfully", Address = result });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error adding address");
+                return StatusCode(500, new { Message = "Error adding address" });
+            }
+        }
+        [HttpGet("orders")]
+        public async Task<IActionResult> GetUserOrders()
+        {
+            try
+            {
+                int userId = GetLoggedInUserId();
+                var orders = await _userService.GetUserOrdersAsync(userId);
+
+                if (orders == null)
+                    return NotFound(new { Message = "No orders found." });
+
+                return Ok(orders);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                _logger.LogWarning(ex, "Unauthorized access to GetUserOrders");
+                return Unauthorized(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching user orders");
+                return StatusCode(500, new { Message = $"Error fetching orders: {ex.Message}" });
+            }
+        }
+
+
     }
 }

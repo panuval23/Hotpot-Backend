@@ -1,0 +1,52 @@
+# ---- Visual Studio / .NET ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Others
+*.db
+*.cache
+
+# ---- React / Node ----
+node_modules/
+build/
+dist/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (keep local only)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- Images / Uploads ----
+HotPot23API/wwwroot/uploads/
+
+# ---- OS / Editor files ----
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
