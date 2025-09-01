@@ -19,11 +19,13 @@ namespace HotPot23API.Controllers
     {
         private readonly IAdminService _adminService;
         private readonly ILogger<AdminController> _logger;
+        private readonly IWebHostEnvironment _env;
 
-        public AdminController(IAdminService adminService, ILogger<AdminController> logger)
+        public AdminController(IAdminService adminService, ILogger<AdminController> logger, IWebHostEnvironment env)
         {
             _adminService = adminService;
             _logger = logger;
+            _env = env;
         }
 
         [HttpPost("AddRestaurant")]
@@ -121,6 +123,31 @@ namespace HotPot23API.Controllers
             {
                 _logger.LogError(ex, "Error deleting user with ID {UserId}", userId);
                 return StatusCode(500, new { Message = $"Error deleting user: {ex.Message}" });
+            }
+        }
+        [HttpGet("logos")]
+        public IActionResult GetRestaurantLogos()
+        {
+            try
+            {
+                var uploadsPath = Path.Combine(_env.WebRootPath, "uploads", "RestaurantLogo");
+
+                if (!Directory.Exists(uploadsPath))
+                    return Ok(new string[0]); // no logos uploaded yet
+
+                var files = Directory.GetFiles(uploadsPath)
+                                     .Select(f => Path.GetFileName(f))
+                                     .ToList();
+
+                var baseUrl = $"{Request.Scheme}://{Request.Host}/uploads/RestaurantLogo/";
+                var urls = files.Select(f => baseUrl + Uri.EscapeDataString(f)).ToList();
+
+                return Ok(urls);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching restaurant logos");
+                return StatusCode(500, new { Message = $"Error fetching restaurant logos: {ex.Message}" });
             }
         }
 

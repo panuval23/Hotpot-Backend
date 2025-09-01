@@ -69,7 +69,7 @@ namespace HotPot23API.Services
                 .Include(m => m.Discounts)
                 .AsQueryable();
 
-            // ✅ First check restaurantId
+           
             if (restaurantId.HasValue)
             {
                 query = query.Where(m => m.RestaurantID == restaurantId.Value);
@@ -136,25 +136,25 @@ namespace HotPot23API.Services
         }
 
 
-
         public async Task<PaginatedResponseDTO<UserMenuItemResponseDTO>> SearchMenuItemsAsync(
     string searchTerm, int pageNumber = 1, int pageSize = 10)
         {
             if (string.IsNullOrWhiteSpace(searchTerm))
                 throw new ArgumentNullException(nameof(searchTerm), "Search term cannot be null or empty.");
 
-            var query = _context.MenuItems
-                .Where(m => m.IsActive &&
-                            (m.Name.Contains(searchTerm) || m.Description.Contains(searchTerm))) // ✅ Keep search condition
-                .Include(m => m.Category)
-                .Include(m => m.Restaurant)
-                .Include(m => m.Discounts)
-                .AsQueryable();
+            searchTerm = searchTerm.ToLower(); 
 
-            // Get total count before pagination
+            var query = _context.MenuItems
+                .Where(m => m.IsActive
+        && m.Restaurant.IsActive 
+        && (
+            m.Name.ToLower().Contains(searchTerm) ||
+            m.Description.ToLower().Contains(searchTerm) ||
+            m.Category.CategoryName.ToLower().Contains(searchTerm)
+        ));
+
             var totalCount = await query.CountAsync();
 
-            // Apply pagination
             var pagedQuery = query
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize);
