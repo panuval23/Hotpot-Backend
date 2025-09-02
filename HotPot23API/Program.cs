@@ -137,6 +137,8 @@ namespace HotPot23API
             builder.Services.AddScoped<IAdminService, AdminService>();
             builder.Services.AddScoped<IRestaurantService, RestaurantService>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IEmailService, EmailService>();
+
 
 
             #endregion

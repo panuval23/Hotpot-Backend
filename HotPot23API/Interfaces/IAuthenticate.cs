@@ -6,5 +6,7 @@ namespace HotPot23API.Interfaces
     {
         Task<LoginResponseDTO> Login(LoginRequestDTO loginRequest);
         Task<UserRegisterResponseDTO> Register(UserRegisterDTO userRegister);
+
+        Task ForgotPassword(string email);
     }
 }

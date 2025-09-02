@@ -47,5 +47,21 @@ namespace HotPot23API.Controllers
                 return Unauthorized(new ErrorObjectDTO { ErrorNumber = 401, ErrorMessage = "Invalid username or password" });
             }
         }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequestDTO dto)
+        {
+            try
+            {
+                await _authService.ForgotPassword(dto.Email);
+                return Ok(new { Message = "Login credentials sent to your email." });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Forgot password failed for {Email}", dto.Email);
+                return BadRequest(new { Message = "Unable to process forgot password request." });
+            }
+        }
+
     }
 }

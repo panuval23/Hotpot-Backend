@@ -18,6 +18,7 @@ namespace HotPot23API.Services
 
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
+        private readonly IEmailService _emailService;
 
         public AuthenticationService(
             IRepository<int, UserMaster> userMasterRepository,
@@ -25,7 +26,7 @@ namespace HotPot23API.Services
             IRepository<int, UserAddressMaster> addressRepository,
              IRepository<int, RestaurantMaster> restaurantMasterRepository,  
             ITokenService tokenService,
-            IMapper mapper)
+            IMapper mapper, IEmailService emailService)
         {
             _userMasterRepository = userMasterRepository;
             _userRepository = userRepository;
@@ -33,6 +34,7 @@ namespace HotPot23API.Services
             _restaurantMasterRepository = restaurantMasterRepository; 
             _tokenService = tokenService;
             _mapper = mapper;
+            _emailService = emailService;
         }
 
       
@@ -74,11 +76,75 @@ namespace HotPot23API.Services
 
 
 
+        //public async Task<UserRegisterResponseDTO> Register(UserRegisterDTO userRegister)
+        //{
+        //    try
+        //    {
+
+        //        var newUserMaster = _mapper.Map<UserMaster>(userRegister);
+        //        newUserMaster.CreatedOn = DateTime.Now;
+        //        newUserMaster.IsActive = true;
+        //        newUserMaster.Role = userRegister.Role;
+
+        //        newUserMaster = await _userMasterRepository.Add(newUserMaster);
+
+        //        var address = new UserAddressMaster
+        //        {
+        //            UserID = newUserMaster.UserID,
+        //            AddressLine = userRegister.AddressLine,
+        //            City = userRegister.City,
+        //            State = userRegister.State,
+        //            Pincode = userRegister.Pincode,
+        //            Landmark = userRegister.Landmark,
+        //            AddressType = userRegister.AddressType ?? "Home",
+        //            IsDefault = userRegister.IsDefault,
+        //            CreatedOn = DateTime.Now
+        //        };
+
+        //        await _addressRepository.Add(address);
+
+
+        //        var user = PopulateUserObject(newUserMaster);
+        //        user = await _userRepository.Add(user);
+
+
+        //        return new UserRegisterResponseDTO
+        //        {
+        //            UserID = newUserMaster.UserID,
+        //            Username = newUserMaster.Username,
+        //            Message = "Registered Successfully"
+        //        };
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //        throw new Exception("Unable to register user");
+        //    }
+        //}
+
+        //private User PopulateUserObject(UserMaster userMaster)
+        //{
+        //    var user = new User
+        //    {
+        //        Username = userMaster.Username,
+        //        UserID = userMaster.UserID,
+        //        Role = userMaster.Role
+        //    };
+
+        //    var hmacsha256 = new HMACSHA256();
+        //    user.HashKey = hmacsha256.Key;
+
+        //    // Generate default password
+        //    var userPass = "#12" + user.Username + "@12";
+        //    user.Password = hmacsha256.ComputeHash(Encoding.UTF8.GetBytes(userPass));
+
+        //    return user;
+        //}
+
         public async Task<UserRegisterResponseDTO> Register(UserRegisterDTO userRegister)
         {
             try
             {
-
                 var newUserMaster = _mapper.Map<UserMaster>(userRegister);
                 newUserMaster.CreatedOn = DateTime.Now;
                 newUserMaster.IsActive = true;
@@ -101,10 +167,21 @@ namespace HotPot23API.Services
 
                 await _addressRepository.Add(address);
 
-
-                var user = PopulateUserObject(newUserMaster);
+                // ✅ Capture plain password using out
+                string plainPassword;
+                var user = PopulateUserObject(newUserMaster, out plainPassword);
                 user = await _userRepository.Add(user);
 
+                // ✅ Send email with credentials
+                await _emailService.SendEmailAsync(
+                    newUserMaster.Email,   // send to Email
+                    "Welcome to HotPot – Your Login Credentials",
+                    $@"Hello {newUserMaster.Name},<br/><br/>
+                Your account has been created.<br/>
+                <b>Username:</b> {newUserMaster.Username}<br/>
+                <b>Password:</b> {plainPassword}<br/><br/>
+                Please change your password after login."
+                );
 
                 return new UserRegisterResponseDTO
                 {
@@ -120,7 +197,8 @@ namespace HotPot23API.Services
             }
         }
 
-        private User PopulateUserObject(UserMaster userMaster)
+
+        private User PopulateUserObject(UserMaster userMaster, out string plainPassword)
         {
             var user = new User
             {
@@ -133,11 +211,45 @@ namespace HotPot23API.Services
             user.HashKey = hmacsha256.Key;
 
             // Generate default password
-            var userPass = "#12" + user.Username + "@12";
-            user.Password = hmacsha256.ComputeHash(Encoding.UTF8.GetBytes(userPass));
+            plainPassword = "#12" + user.Username + "@12"; // 👈 store plain password
+            user.Password = hmacsha256.ComputeHash(Encoding.UTF8.GetBytes(plainPassword));
 
             return user;
         }
+        public async Task ForgotPassword(string email)
+        {
+            // 1) Find the user in UserMaster by Email
+            var allUsers = await _userMasterRepository.GetAll();
+            var userMaster = allUsers.FirstOrDefault(u => u.Email == email);
+
+            if (userMaster == null)
+                throw new NoSuchEntityException();
+
+            // 2) Recompute the default password (same as registration)
+            var plainPassword = "#12" + userMaster.Username + "@12";
+
+            // 3) Fetch user (hashed credentials) and reset password
+            var dbUser = await _userRepository.GetById(userMaster.Username);
+            if (dbUser == null || dbUser.HashKey == null)
+                throw new NoSuchEntityException();
+
+            using var hmac = new HMACSHA256(dbUser.HashKey);
+            dbUser.Password = hmac.ComputeHash(Encoding.UTF8.GetBytes(plainPassword));
+
+            await _userRepository.Update(dbUser.Username, dbUser);
+
+            // 4) Send email with same credentials
+            await _emailService.SendEmailAsync(
+                userMaster.Email,
+                "HotPot – Password Reset",
+                $@"Hello {userMaster.Name},<br/><br/>
+            Your login credentials have been reset.<br/>
+            <b>Username:</b> {userMaster.Username}<br/>
+            <b>Password:</b> {plainPassword}<br/><br/>
+            Please change your password after login."
+            );
+        }
+
 
     }
 }
